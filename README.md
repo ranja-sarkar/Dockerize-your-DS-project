@@ -30,4 +30,8 @@ If you want to use GitHub Actions and Azure App Services for your production the
 
 <img width="610" alt="github_actions" src="https://github.com/user-attachments/assets/12947465-789f-4061-9d4b-6eb57d3b1250">
 
+For CI/CD this is preferred. 
+
+<img width="595" alt="CI_CD" src="https://github.com/user-attachments/assets/c6f9dcbc-67b3-4a6b-b093-1aadd8ff357e">
+
 
