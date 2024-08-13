@@ -14,3 +14,15 @@ Ensure you make your dockerfile while outside the app directory. A basic dockerf
 <img width="232" alt="22" src="https://github.com/user-attachments/assets/42f8a3f7-7dfd-40d9-ac37-edca36ff80fb">
 
 <img width="260" alt="33" src="https://github.com/user-attachments/assets/c84be373-052a-400c-bbd3-9f07141b987e">
+
+If the humnan-readable docker image is tagged or named as 'rps', we build the docker image by running:
+<img width="125" alt="44" src="https://github.com/user-attachments/assets/835ae4a8-3e7b-426a-859c-deee9595fd2f">
+with a dot at the end of the command. 
+The . at the end of docker build command indicates that Docker should look for the Dockerfile in our current directory.
+[The tag might as well have a version and versioned name.]
+
+
+Navigate to browser localhost:8501 to see the web app in action. 
+For more, read <https://docs.docker.com/guides/docker-overview/>
+
+
