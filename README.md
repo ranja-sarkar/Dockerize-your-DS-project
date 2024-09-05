@@ -34,8 +34,8 @@ For CI/CD this is preferred.
 
 <img width="595" alt="CI_CD" src="https://github.com/user-attachments/assets/c6f9dcbc-67b3-4a6b-b093-1aadd8ff357e">
 
-There're different testing types which are performed in different environments. Smoke testig and regression testing are done in the deployed environments.   
-Datamigrating testing is done in staging environment, system integration testing (SIT) in SIT environment, performance testing is done in SIT and UAT environments, 
+There're different testing types which are performed in different environments. Smoke testing and regression testing are done in the deployed environments.   
+Data migration testing is done in staging environment, system integration testing (SIT) in SIT environment, performance testing is done in SIT and UAT environments, 
 funtional testing in QA environment. 
 
 <img width="226" alt="Tests" src="https://github.com/user-attachments/assets/524f1eb4-3576-4235-bcd6-85c908593d37">
