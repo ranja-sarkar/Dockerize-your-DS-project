@@ -26,9 +26,11 @@ Checking whether (Docker) container works everywhere? Shipping container to the 
 Main ingredients for container runtime:
 1. **Build**: We need to use a tool to let us declare what we need in the container to run our application. **Buildkit** is probably the most well-known, also used by docker.
 2. **Store**: we need a place to host the images so our runtime will be able to fetch the images and run them as containers. This is typically called a container registry. **Docker Hub** is by and large the most popular for this. Other examples are AWS Elastic Container Registry (ECR), Azure Container Registry (ACR), Google Container Registry.
-3. **Run**: we need a container runtime to let us run our freshly built images. **containerd** is probably the most used runtime.
+3. **Run**: we need a container runtime to let us run our freshly built images. **containerd** is probably the most used runtime: https://containerd.io/
+   
 
    If you're running multiple containers, Kubernetes is the one.
+   https://www.linkedin.com/posts/drranja-sarkar_microservices-docker-os-activity-7188902791195574273-OxTh
 
    Output post running container:
    1. **Logs**: configured the container definition to store the logs on AWS Cloudwatch
