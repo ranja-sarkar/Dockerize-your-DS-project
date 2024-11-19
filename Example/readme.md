@@ -17,7 +17,7 @@ Steps to be followed for the aformentioned:
    The Dockerfile builds images into a container that can be run in a laptop, server, cloud. With docker build command, this Dockerfile is built (you may label your container
    with a tag for later use). Using the docker run commmand, you run the container in a laptop, server, or cloud platform.
 
-For ready reference, refer to the repo: https://github.com/datamindedbe/webinar-containers/tree/main/PART%20I
+For ready reference, refer the repo: https://github.com/datamindedbe/webinar-containers/tree/main/PART%20I
 
 
 
