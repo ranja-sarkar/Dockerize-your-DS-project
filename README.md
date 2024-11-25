@@ -1,6 +1,9 @@
 # How to dockerize your web app code?
 
-A standard project repository contains directories like /data, /models, /references, /docs etc. apart from the ones shown here.
+A standard project repository contains directories like /data, /models, /references, /docs etc. apart from the ones shown here. One may follow Cookiecutter for this: https://cookiecutter-data-science.drivendata.org/
+
+Some standard templates by Cookiecutter: https://cookiecutter.readthedocs.io/en/stable/usage.html
+
 
 <img width="202" alt="0" src="https://github.com/user-attachments/assets/52e56065-16b7-48d7-b52b-92c3a4191beb">
 
