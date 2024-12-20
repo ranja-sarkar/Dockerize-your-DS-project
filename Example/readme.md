@@ -15,7 +15,10 @@ Steps to be followed for the aformentioned:
 1) Create a setup.py file (packaging your code)
 2) Create a txt file of requirements (library versions) (using pip freeze in the environment)
 3) Add unit test py files
-   
+
+   <img width="491" alt="11" src="https://github.com/user-attachments/assets/58e03582-f32a-4969-b27a-f201fd580402" />
+
+
 4) Prepare code for deployment using container - create Dockerfile (whole environment is declared).
    The Dockerfile builds images into a container that can be run in a laptop, server, cloud. With docker build command, this Dockerfile is built (you may label your container
    with a tag for later use). Using the docker run commmand, you run the container in a laptop, server, or cloud platform.
