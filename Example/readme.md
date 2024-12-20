@@ -28,7 +28,9 @@ Steps to be followed for the aformentioned:
 
 For ready reference, refer the repo: https://github.com/datamindedbe/webinar-containers/tree/main/PART%20I
 
-Next comes portability - how about the container running in environments other than the one I built and ran successfully. 
+Next comes **portability** - how about the container running in environments other than the one I built and ran successfully. 
+
+
 
 Checking whether (Docker) container works everywhere? Shipping container to the cloud AWS is the use case.
 
@@ -41,7 +43,7 @@ Main ingredients for container runtime:
    If you're running multiple containers, Kubernetes is the one.
    https://www.linkedin.com/posts/drranja-sarkar_microservices-docker-os-activity-7188902791195574273-OxTh
 
-   Output post running container:
+   Output after running container:
    1. **Logs**: configured the container definition to store the logs on AWS Cloudwatch
    2. **Results**: configured the container to read and write to a specific AWS S3 bucket, and going there we can have a look at the csv file (of predictions) that was produced.
 
