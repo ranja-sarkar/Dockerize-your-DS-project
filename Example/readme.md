@@ -39,9 +39,12 @@ Main ingredients for container runtime:
 2. **Store**: we need a place to host the images so our runtime will be able to fetch the images and run them as containers. This is typically called a container registry. **Docker Hub** is by and large the most popular for this. Other examples are AWS Elastic Container Registry (ECR), Azure Container Registry (ACR), Google Container Registry.
 3. **Run**: we need a container runtime to let us run our freshly built images. **containerd** is probably the most used runtime: https://containerd.io/
    
+<img width="542" alt="44" src="https://github.com/user-attachments/assets/b3aae7dc-98a6-4196-9686-2f849bbc08f9" />
+
 
    If you're running multiple containers, Kubernetes is the one.
-   https://www.linkedin.com/posts/drranja-sarkar_microservices-docker-os-activity-7188902791195574273-OxTh
+   
+   See: https://www.linkedin.com/posts/drranja-sarkar_microservices-docker-os-activity-7188902791195574273-OxTh
 
    Output after running container:
    1. **Logs**: configured the container definition to store the logs on AWS Cloudwatch
