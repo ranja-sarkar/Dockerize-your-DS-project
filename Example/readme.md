@@ -1,11 +1,14 @@
 
+# Operationalize
+
 Like any other tool, notebooks are good for some purposes but bad for some other.
 
 They are good at coding to test out an idea, quick data exploration and visualization, and maybe build out some ML models too.
 However, they are bad at modularization (reusability), testability, reproducability, versioning and collaboration. 
 
-Your notebook code does not specify versions (of libraries imported), have hard-coded paths, and untested logic. For your code to be production-ready, it must be versioned, 
-reproducible, organised, and tested. 
+Your notebook code does not specify versions (of libraries imported), have hard-coded paths, and untested logic. 
+
+**For your code to be production-ready, it must be versioned, reproducible, organised, and tested.** 
 
 Steps to be followed for the aformentioned:
 
