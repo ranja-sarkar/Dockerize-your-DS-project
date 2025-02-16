@@ -32,7 +32,7 @@ Next comes **portability** - how about the container running in environments oth
 
 <img width="551" alt="33" src="https://github.com/user-attachments/assets/dbded553-7cfb-4107-82e5-5fd1c0e93efa" />
 
-Checking whether the Docker container works everywhere? Shipping container to the cloud AWS is the use case.
+Checking whether the Docker container works everywhere? Shipping container to the cloud of AWS is the use case.
 
 Main ingredients for container runtime:
 1. **Build**: We need to use a tool to let us declare what we need in the container to run our application. **Buildkit** is probably the most well-known, also used by docker.
@@ -42,6 +42,9 @@ Main ingredients for container runtime:
 <img width="542" alt="44" src="https://github.com/user-attachments/assets/b3aae7dc-98a6-4196-9686-2f849bbc08f9" />
 
 
+   
+**CI components therefore are linting, unit testing, python package build, docker image build, docker image push to registry.**
+  
    If you're running multiple containers, Kubernetes is the one.
    
    See: https://www.linkedin.com/posts/drranja-sarkar_microservices-docker-os-activity-7188902791195574273-OxTh
