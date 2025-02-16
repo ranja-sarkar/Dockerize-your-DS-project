@@ -32,7 +32,9 @@ Next comes **portability** - how about the container running in environments oth
 
 <img width="551" alt="33" src="https://github.com/user-attachments/assets/dbded553-7cfb-4107-82e5-5fd1c0e93efa" />
 
-Checking whether the Docker container works everywhere? Shipping container to the cloud of AWS is the use case.
+**Now we have to check if the Docker container works everywhere.** 
+
+**We'll shipg container to the cloud of AWS as an example use case here.**
 
 Main ingredients for container runtime:
 1. **Build**: We need to use a tool to let us declare what we need in the container to run our application. **Buildkit** is probably the most well-known, also used by docker.
