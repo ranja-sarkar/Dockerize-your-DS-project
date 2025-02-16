@@ -1,7 +1,7 @@
 
 # Operationalize
 
-Like any other tool, notebooks are good for some purposes but bad for some other.
+Notebooks, like any tool are good for some purposes but bad for some other.
 
 They are good at coding to test out an idea, quick data exploration and visualization, and maybe build out some ML models too.
 However, they are bad at modularization (reusability), testability, reproducability, versioning and collaboration. 
@@ -26,7 +26,7 @@ Steps to be followed for the aformentioned:
    <img width="523" alt="22" src="https://github.com/user-attachments/assets/380d6b3a-58ca-47b0-82de-e55999c3d192" />
 
 
-For ready reference, refer the repo: https://github.com/datamindedbe/webinar-containers/tree/main/PART%20I
+For ready reference, visit the repo: https://github.com/datamindedbe/webinar-containers/tree/main/PART%20I
 
 Next comes **portability** - how about the container running in environments other than the one I built and ran successfully. 
 
@@ -34,7 +34,7 @@ Next comes **portability** - how about the container running in environments oth
 
 **Now we have to check if the Docker container works everywhere.** 
 
-**We'll shipg container to the cloud of AWS as an example use case here.**
+**We'll ship container to the cloud of AWS as an example use case here.**
 
 Main ingredients for container runtime:
 1. **Build**: We need to use a tool to let us declare what we need in the container to run our application. **Buildkit** is probably the most well-known, also used by docker.
