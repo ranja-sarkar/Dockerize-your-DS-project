@@ -1,4 +1,4 @@
-# How to dockerize your web app code?
+# How to dockerize?
 
 A standard project repository contains directories like data/ (raw, processed, etc.), references/, docs/ (project documentation, etc.), reports/, notebooks/, apart from the ones shown here. One may follow Cookiecutter for this: https://cookiecutter-data-science.drivendata.org/
 
